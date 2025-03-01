@@ -1,0 +1,151 @@
+﻿<Page x:Class="GUI_WPF.TouristsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:GUI_WPF"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="TouristsPage">
+    <Page.Resources>
+        <!-- Styles -->
+        <Style x:Key="SectionTitle" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="24" />
+            <Setter Property="FontWeight" Value="Bold" />
+            <Setter Property="Foreground" Value="#2E8B57" />
+            <Setter Property="Margin" Value="10,20,10,10" />
+            <Setter Property="HorizontalAlignment" Value="Left" />
+        </Style>
+        <Style x:Key="DescriptionText" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="Foreground" Value="Black" />
+            <Setter Property="TextWrapping" Value="Wrap" />
+            <Setter Property="Margin" Value="10" />
+        </Style>
+        <Style x:Key="FacilityCard" TargetType="Border">
+            <Setter Property="CornerRadius" Value="10" />
+            <Setter Property="BorderBrush" Value="#2E8B57" />
+            <Setter Property="BorderThickness" Value="1" />
+            <Setter Property="Padding" Value="10" />
+            <Setter Property="Margin" Value="10" />
+            <Setter Property="Background" Value="White" />
+        </Style>
+        <Style x:Key="ImageStyle" TargetType="Image">
+            <Setter Property="Height" Value="150" />
+            <Setter Property="Stretch" Value="UniformToFill" />
+            <Setter Property="Margin" Value="0,0,0,10" />
+        </Style>
+    </Page.Resources>
+
+    <Grid>
+        <!-- Background -->
+        <Grid.Background>
+            <ImageBrush ImageSource="NewFolder/img-7.jpg" Stretch="UniformToFill" />
+        </Grid.Background>
+
+        <!-- Content -->
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <StackPanel Margin="20" Background="White" >
+                <!-- Title -->
+                <TextBlock Text="Explore Tourist Facilities" 
+                           Style="{StaticResource SectionTitle}" HorizontalAlignment="Center" />
+
+                <!-- Hotel Facilities -->
+                <TextBlock Text="Hotel Facilities" Style="{StaticResource SectionTitle}" />
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <!-- Facility 1 -->
+                    <Border Style="{StaticResource FacilityCard}">
+                        <StackPanel>
+                            <Image Source="NewFolder/img-7.jpg" Style="{StaticResource ImageStyle}" />
+                            <TextBlock Text="Luxurious Rooms" Style="{StaticResource DescriptionText}" />
+                            <TextBlock Text="Spacious, air-conditioned rooms with stunning sea views and modern amenities." 
+                                       Style="{StaticResource DescriptionText}" />
+                        </StackPanel>
+                    </Border>
+                    <!-- Facility 2 -->
+                    <Border Style="{StaticResource FacilityCard}">
+                        <StackPanel>
+                            <Image Source="NewFolder/img-7.jpg" Style="{StaticResource ImageStyle}" />
+                            <TextBlock Text="Spa and Wellness" Style="{StaticResource DescriptionText}" />
+                            <TextBlock Text="Relax with world-class spa treatments and rejuvenating wellness therapies." 
+                                       Style="{StaticResource DescriptionText}" />
+                        </StackPanel>
+                    </Border>
+                    <!-- Facility 3 -->
+                    <Border Style="{StaticResource FacilityCard}">
+                        <StackPanel>
+                            <Image Source="NewFolder/img-7.jpg" Style="{StaticResource ImageStyle}" />
+                            <TextBlock Text="Infinity Pools" Style="{StaticResource DescriptionText}" />
+                            <TextBlock Text="Enjoy breathtaking infinity pools overlooking the ocean." 
+                                       Style="{StaticResource DescriptionText}" />
+                        </StackPanel>
+                    </Border>
+                </StackPanel>
+
+                <!-- Food Options -->
+                <TextBlock Text="Food and Dining" Style="{StaticResource SectionTitle}" />
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <!-- Cuisine 1 -->
+                    <Border Style="{StaticResource FacilityCard}">
+                        <StackPanel>
+                            <Image Source="NewFolder/img-7.jpg" Style="{StaticResource ImageStyle}" />
+                            <TextBlock Text="Fresh Seafood" Style="{StaticResource DescriptionText}" />
+                            <TextBlock Text="Savor the freshest seafood dishes, straight from the ocean." 
+                                       Style="{StaticResource DescriptionText}" />
+                        </StackPanel>
+                    </Border>
+                    <!-- Cuisine 2 -->
+                    <Border Style="{StaticResource FacilityCard}">
+                        <StackPanel>
+                            <Image Source="NewFolder/img-7.jpg" Style="{StaticResource ImageStyle}" />
+                            <TextBlock Text="Tropical Fruits" Style="{StaticResource DescriptionText}" />
+                            <TextBlock Text="Delight in a variety of exotic tropical fruits." 
+                                       Style="{StaticResource DescriptionText}" />
+                        </StackPanel>
+                    </Border>
+                    <!-- Cuisine 3 -->
+                    <Border Style="{StaticResource FacilityCard}">
+                        <StackPanel>
+                            <Image Source="NewFolder/img-7.jpg" Style="{StaticResource ImageStyle}" />
+                            <TextBlock Text="Fine Dining" Style="{StaticResource DescriptionText}" />
+                            <TextBlock Text="Experience gourmet dining at beachfront restaurants." 
+                                       Style="{StaticResource DescriptionText}" />
+                        </StackPanel>
+                    </Border>
+                </StackPanel>
+
+                <!-- Activities -->
+                <TextBlock Text="Activities and Entertainment" Style="{StaticResource SectionTitle}" />
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <!-- Activity 1 -->
+                    <Border Style="{StaticResource FacilityCard}">
+                        <StackPanel>
+                            <Image Source="NewFolder/img-7.jpg" Style="{StaticResource ImageStyle}" />
+                            <TextBlock Text="Water Sports" Style="{StaticResource DescriptionText}" />
+                            <TextBlock Text="Snorkeling, scuba diving, and exciting water sports await you." 
+                                       Style="{StaticResource DescriptionText}" />
+                        </StackPanel>
+                    </Border>
+                    <!-- Activity 2 -->
+                    <Border Style="{StaticResource FacilityCard}">
+                        <StackPanel>
+                            <Image Source="NewFolder/img-7.jpg" Style="{StaticResource ImageStyle}" />
+                            <TextBlock Text="Sunset Cruises" Style="{StaticResource DescriptionText}" />
+                            <TextBlock Text="Enjoy stunning sunsets on luxurious cruises." 
+                                       Style="{StaticResource DescriptionText}" />
+                        </StackPanel>
+                    </Border>
+                    <!-- Activity 3 -->
+                    <Border Style="{StaticResource FacilityCard}">
+                        <StackPanel>
+                            <Image Source="NewFolder/img-7.jpg" Style="{StaticResource ImageStyle}" />
+                            <TextBlock Text="Cultural Shows" Style="{StaticResource DescriptionText}" />
+                            <TextBlock Text="Experience vibrant local culture through traditional performances." 
+                                       Style="{StaticResource DescriptionText}" />
+                        </StackPanel>
+                    </Border>
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>

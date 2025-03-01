@@ -1,0 +1,99 @@
+﻿<Page x:Class="GUI_WPF.ReportsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:GUI_WPF"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="ReportsPage">
+    <Page.Resources>
+        <!-- Styles -->
+        <Style x:Key="CardStyle" TargetType="Border">
+            <Setter Property="CornerRadius" Value="10" />
+            <Setter Property="Background" Value="White" />
+            <Setter Property="Margin" Value="15" />
+            <Setter Property="Padding" Value="20" />
+            <Setter Property="Effect">
+                <Setter.Value>
+                    <DropShadowEffect Color="Black" BlurRadius="5" ShadowDepth="2" />
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="SectionTitleStyle" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="18" />
+            <Setter Property="FontWeight" Value="Bold" />
+            <Setter Property="Foreground" Value="#2E8B57" />
+            <Setter Property="Margin" Value="0,0,0,10" />
+        </Style>
+        <Style x:Key="ContentTextStyle" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="Foreground" Value="Black" />
+            <Setter Property="TextWrapping" Value="Wrap" />
+            <Setter Property="Margin" Value="0,0,0,10" />
+        </Style>
+    </Page.Resources>
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="NewFolder/img-7.jpg" />
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <!-- Header -->
+        <TextBlock Text="Tour Guide App Reports" 
+                   FontSize="22" 
+                   FontWeight="Bold" 
+                   Foreground="#2E8B57" 
+                   HorizontalAlignment="Center" 
+                   Margin="10" />
+
+        <!-- Main Content -->
+        <ScrollViewer Grid.Row="1" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto">
+            <Viewbox Stretch="Uniform" StretchDirection="DownOnly" Margin="10">
+                <StackPanel Orientation="Vertical" HorizontalAlignment="Center" Width="700">
+                    <!-- Service Description -->
+                    <Border Style="{StaticResource CardStyle}">
+                        <StackPanel>
+                            <TextBlock Text="About Our Services" Style="{StaticResource SectionTitleStyle}" />
+                            <TextBlock Text="We guide you to explore breathtaking islands, luxurious stays, and unique dining experiences."
+                                       Style="{StaticResource ContentTextStyle}" />
+                        </StackPanel>
+                    </Border>
+
+                    <!-- Contact Information -->
+                    <Border Style="{StaticResource CardStyle}">
+                        <StackPanel>
+                            <TextBlock Text="Contact Information" Style="{StaticResource SectionTitleStyle}" />
+                            <TextBlock Text="Phone: +1-800-555-TOUR" Style="{StaticResource ContentTextStyle}" />
+                            <TextBlock Text="Telegram: t.me/tourguideapp" Style="{StaticResource ContentTextStyle}" />
+                            <TextBlock Text="Facebook: facebook.com/tourguideapp" Style="{StaticResource ContentTextStyle}" />
+                        </StackPanel>
+                    </Border>
+
+                    <!-- Quick Links -->
+                    <Border Style="{StaticResource CardStyle}">
+                        <StackPanel>
+                            <TextBlock Text="Quick Links" Style="{StaticResource SectionTitleStyle}" />
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                                <TextBlock Text="• " FontSize="16" FontWeight="Bold" Foreground="#2E8B57" />
+                                <TextBlock Text="Top Islands" Style="{StaticResource ContentTextStyle}" />
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                                <TextBlock Text="• " FontSize="16" FontWeight="Bold" Foreground="#2E8B57" />
+                                <TextBlock Text="Luxury Hotels" Style="{StaticResource ContentTextStyle}" />
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                                <TextBlock Text="• " FontSize="16" FontWeight="Bold" Foreground="#2E8B57" />
+                                <TextBlock Text="Exciting Activities" Style="{StaticResource ContentTextStyle}" />
+                            </StackPanel>
+                        </StackPanel>
+                    </Border>
+                </StackPanel>
+            </Viewbox>
+        </ScrollViewer>
+    </Grid>
+</Page>

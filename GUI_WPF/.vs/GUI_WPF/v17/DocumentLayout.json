@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\chand\\GUI-project-wpf\\GUI_WPF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{31AD8009-0655-4E6C-AAB7-C4FF2B8E6EFB}|GUI_WPF\\GUI_WPF.csproj|c:\\users\\chand\\gui-project-wpf\\gui_wpf\\gui_wpf\\bookingspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{31AD8009-0655-4E6C-AAB7-C4FF2B8E6EFB}|GUI_WPF\\GUI_WPF.csproj|solutionrelative:gui_wpf\\bookingspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31AD8009-0655-4E6C-AAB7-C4FF2B8E6EFB}|GUI_WPF\\GUI_WPF.csproj|c:\\users\\chand\\gui-project-wpf\\gui_wpf\\gui_wpf\\signupwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{31AD8009-0655-4E6C-AAB7-C4FF2B8E6EFB}|GUI_WPF\\GUI_WPF.csproj|solutionrelative:gui_wpf\\signupwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31AD8009-0655-4E6C-AAB7-C4FF2B8E6EFB}|GUI_WPF\\GUI_WPF.csproj|c:\\users\\chand\\gui-project-wpf\\gui_wpf\\gui_wpf\\welcomepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31AD8009-0655-4E6C-AAB7-C4FF2B8E6EFB}|GUI_WPF\\GUI_WPF.csproj|solutionrelative:gui_wpf\\welcomepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31AD8009-0655-4E6C-AAB7-C4FF2B8E6EFB}|GUI_WPF\\GUI_WPF.csproj|c:\\users\\chand\\gui-project-wpf\\gui_wpf\\gui_wpf\\welcomepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{31AD8009-0655-4E6C-AAB7-C4FF2B8E6EFB}|GUI_WPF\\GUI_WPF.csproj|solutionrelative:gui_wpf\\welcomepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31AD8009-0655-4E6C-AAB7-C4FF2B8E6EFB}|GUI_WPF\\GUI_WPF.csproj|c:\\users\\chand\\gui-project-wpf\\gui_wpf\\gui_wpf\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{31AD8009-0655-4E6C-AAB7-C4FF2B8E6EFB}|GUI_WPF\\GUI_WPF.csproj|solutionrelative:gui_wpf\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31AD8009-0655-4E6C-AAB7-C4FF2B8E6EFB}|GUI_WPF\\GUI_WPF.csproj|c:\\users\\chand\\gui-project-wpf\\gui_wpf\\gui_wpf\\touristspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{31AD8009-0655-4E6C-AAB7-C4FF2B8E6EFB}|GUI_WPF\\GUI_WPF.csproj|solutionrelative:gui_wpf\\touristspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31AD8009-0655-4E6C-AAB7-C4FF2B8E6EFB}|GUI_WPF\\GUI_WPF.csproj|c:\\users\\chand\\gui-project-wpf\\gui_wpf\\gui_wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31AD8009-0655-4E6C-AAB7-C4FF2B8E6EFB}|GUI_WPF\\GUI_WPF.csproj|solutionrelative:gui_wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31AD8009-0655-4E6C-AAB7-C4FF2B8E6EFB}|GUI_WPF\\GUI_WPF.csproj|c:\\users\\chand\\gui-project-wpf\\gui_wpf\\gui_wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{31AD8009-0655-4E6C-AAB7-C4FF2B8E6EFB}|GUI_WPF\\GUI_WPF.csproj|solutionrelative:gui_wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookingsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\chand\\GUI-project-wpf\\GUI_WPF\\GUI_WPF\\BookingsPage.xaml",
+              "RelativeDocumentMoniker": "GUI_WPF\\BookingsPage.xaml",
+              "ToolTip": "C:\\Users\\chand\\GUI-project-wpf\\GUI_WPF\\GUI_WPF\\BookingsPage.xaml",
+              "RelativeToolTip": "GUI_WPF\\BookingsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-17T18:37:20.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SignupWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\chand\\GUI-project-wpf\\GUI_WPF\\GUI_WPF\\SignupWindow.xaml",
+              "RelativeDocumentMoniker": "GUI_WPF\\SignupWindow.xaml",
+              "ToolTip": "C:\\Users\\chand\\GUI-project-wpf\\GUI_WPF\\GUI_WPF\\SignupWindow.xaml",
+              "RelativeToolTip": "GUI_WPF\\SignupWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-19T10:02:03.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TouristsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\chand\\GUI-project-wpf\\GUI_WPF\\GUI_WPF\\TouristsPage.xaml",
+              "RelativeDocumentMoniker": "GUI_WPF\\TouristsPage.xaml",
+              "ToolTip": "C:\\Users\\chand\\GUI-project-wpf\\GUI_WPF\\GUI_WPF\\TouristsPage.xaml",
+              "RelativeToolTip": "GUI_WPF\\TouristsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-17T18:36:54.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WelcomePage.xaml",
+              "DocumentMoniker": "C:\\Users\\chand\\GUI-project-wpf\\GUI_WPF\\GUI_WPF\\WelcomePage.xaml",
+              "RelativeDocumentMoniker": "GUI_WPF\\WelcomePage.xaml",
+              "ToolTip": "C:\\Users\\chand\\GUI-project-wpf\\GUI_WPF\\GUI_WPF\\WelcomePage.xaml",
+              "RelativeToolTip": "GUI_WPF\\WelcomePage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-18T07:22:25.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "C:\\Users\\chand\\GUI-project-wpf\\GUI_WPF\\GUI_WPF\\HomePage.xaml",
+              "RelativeDocumentMoniker": "GUI_WPF\\HomePage.xaml",
+              "ToolTip": "C:\\Users\\chand\\GUI-project-wpf\\GUI_WPF\\GUI_WPF\\HomePage.xaml",
+              "RelativeToolTip": "GUI_WPF\\HomePage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-17T18:36:29.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WelcomePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\chand\\GUI-project-wpf\\GUI_WPF\\GUI_WPF\\WelcomePage.xaml.cs",
+              "RelativeDocumentMoniker": "GUI_WPF\\WelcomePage.xaml.cs",
+              "ToolTip": "C:\\Users\\chand\\GUI-project-wpf\\GUI_WPF\\GUI_WPF\\WelcomePage.xaml.cs",
+              "RelativeToolTip": "GUI_WPF\\WelcomePage.xaml.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T05:15:28.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\chand\\GUI-project-wpf\\GUI_WPF\\GUI_WPF\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "GUI_WPF\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\chand\\GUI-project-wpf\\GUI_WPF\\GUI_WPF\\MainWindow.xaml.cs",
+              "RelativeToolTip": "GUI_WPF\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowDAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T17:48:22.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\chand\\GUI-project-wpf\\GUI_WPF\\GUI_WPF\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "GUI_WPF\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\chand\\GUI-project-wpf\\GUI_WPF\\GUI_WPF\\MainWindow.xaml",
+              "RelativeToolTip": "GUI_WPF\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-17T17:48:31.554Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

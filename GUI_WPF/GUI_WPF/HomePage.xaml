@@ -1,0 +1,113 @@
+﻿<Page x:Class="GUI_WPF.HomePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:GUI_WPF"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="HomePage">
+    <Page.Resources>
+        <!-- Styles -->
+        <Style x:Key="CardStyle" TargetType="Border">
+            <Setter Property="CornerRadius" Value="15" />
+            <Setter Property="Background" Value="White" />
+            <Setter Property="Margin" Value="10" />
+            <Setter Property="Padding" Value="20" />
+            <Setter Property="Effect">
+                <Setter.Value>
+                    <DropShadowEffect Color="#555555" BlurRadius="10" ShadowDepth="4" />
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="TitleStyle" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="36" />
+            <Setter Property="FontWeight" Value="Bold" />
+            <Setter Property="Foreground" Value="#4CAF50" />
+            <Setter Property="TextAlignment" Value="Center" />
+            <Setter Property="Margin" Value="0,20,0,30" />
+        </Style>
+        <Style x:Key="SubtitleStyle" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="20" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+            <Setter Property="Foreground" Value="#FF5722" />
+            <Setter Property="TextAlignment" Value="Left" />
+            <Setter Property="Margin" Value="0,5,0,10" />
+        </Style>
+        <Style x:Key="ContentTextStyle" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="16" />
+            <Setter Property="Foreground" Value="#333333" />
+            <Setter Property="TextWrapping" Value="Wrap" />
+            <Setter Property="Margin" Value="0,0,0,10" />
+        </Style>
+    </Page.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <!-- Header Section -->
+        <StackPanel Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top">
+            <TextBlock Text="Explore the World of Islands" Style="{StaticResource TitleStyle}" />
+            <TextBlock Text="Discover your next adventure with us" 
+                       FontSize="18" 
+                       Foreground="#555555" 
+                       TextAlignment="Center" 
+                       Margin="0,0,0,20" />
+        </StackPanel>
+
+        <!-- Main Content -->
+        <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
+            <UniformGrid Columns="2" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="20">
+                <!-- Discover Islands Section -->
+                <Border Style="{StaticResource CardStyle}">
+                    <StackPanel>
+                        <Image Source="NewFolder/img-1.jpg" Height="200" Stretch="UniformToFill" />
+                        <TextBlock Text="Discover Stunning Islands" Style="{StaticResource SubtitleStyle}" />
+                        <TextBlock Text="Explore serene beaches, lush greenery, and vibrant culture. Unwind in a tropical paradise!" 
+                                   Style="{StaticResource ContentTextStyle}" />
+                    </StackPanel>
+                </Border>
+
+                <!-- Luxury Hotels Section -->
+                <Border Style="{StaticResource CardStyle}">
+                    <StackPanel>
+                        <Image Source="NewFolder/img-1.jpg" Height="200" Stretch="UniformToFill" />
+                        <TextBlock Text="Luxury Hotel Stays" Style="{StaticResource SubtitleStyle}" />
+                        <TextBlock Text="Enjoy world-class hospitality with stunning views and top-notch facilities." 
+                                   Style="{StaticResource ContentTextStyle}" />
+                    </StackPanel>
+                </Border>
+
+                <!-- Exciting Activities Section -->
+                <Border Style="{StaticResource CardStyle}">
+                    <StackPanel>
+                        <Image Source="NewFolder/img-1.jpg" Height="200" Stretch="UniformToFill" />
+                        <TextBlock Text="Exciting Activities" Style="{StaticResource SubtitleStyle}" />
+                        <TextBlock Text="Scuba diving, hiking, and more await you. Create memories that last a lifetime." 
+                                   Style="{StaticResource ContentTextStyle}" />
+                    </StackPanel>
+                </Border>
+
+                <!-- Contact Section -->
+                <Border Style="{StaticResource CardStyle}">
+                    <StackPanel>
+                        <Image Source="NewFolder/img-1.jpg" Height="200" Stretch="UniformToFill" />
+                        <TextBlock Text="Connect with Us" Style="{StaticResource SubtitleStyle}" />
+                        <TextBlock Text="Phone: +1-800-555-ISLE" Style="{StaticResource ContentTextStyle}" />
+                        <TextBlock Text="Email: support@islandexplorer.com" Style="{StaticResource ContentTextStyle}" />
+                        <TextBlock Text="Follow us on:" Style="{StaticResource ContentTextStyle}" />
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                            <Image Source="NewFolder/img-1.jpg" Width="30" Height="30" Margin="5" />
+                            <Image Source="NewFolder/img-1.jpg" Width="30" Height="30" Margin="5" />
+                            <Image Source="NewFolder/img-1.jpg" Width="30" Height="30" Margin="5" />
+                        </StackPanel>
+                    </StackPanel>
+                </Border>
+            </UniformGrid>
+        </ScrollViewer>
+    </Grid>
+
+</Page>
