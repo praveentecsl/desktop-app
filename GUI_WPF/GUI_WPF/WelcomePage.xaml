@@ -30,7 +30,7 @@
         <TextBlock Text="Welcome to the Tour Guide App!"
                HorizontalAlignment="Center" 
                VerticalAlignment="Top" 
-               FontSize="28" 
+               FontSize="45" 
                FontWeight="Bold" 
                Margin="0,20,0,0" 
                Grid.Row="0" Grid.ColumnSpan="3" />
@@ -38,9 +38,9 @@
         <!-- Login Section -->
         <TextBlock Text="Login To IslandVibes"
                Grid.Row="1" Grid.Column="1" 
-               FontSize="40" 
+               FontSize="49" 
                FontWeight="Bold" 
-               Foreground="Wheat" 
+               Foreground="White" 
                FontFamily="Times New Roman" 
                HorizontalAlignment="Center" 
                VerticalAlignment="Top" 

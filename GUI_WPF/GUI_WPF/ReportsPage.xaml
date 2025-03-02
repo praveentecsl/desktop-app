@@ -36,7 +36,7 @@
 
     <Grid>
         <Grid.Background>
-            <ImageBrush ImageSource="NewFolder/img-7.jpg" />
+            <ImageBrush ImageSource="NewFolder2/po.jpg" />
         </Grid.Background>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
@@ -45,9 +45,9 @@
 
         <!-- Header -->
         <TextBlock Text="Tour Guide App Reports" 
-                   FontSize="22" 
+                   FontSize="40" 
                    FontWeight="Bold" 
-                   Foreground="#2E8B57" 
+                   Foreground="White" 
                    HorizontalAlignment="Center" 
                    Margin="10" />
 
@@ -68,7 +68,7 @@
                     <Border Style="{StaticResource CardStyle}">
                         <StackPanel>
                             <TextBlock Text="Contact Information" Style="{StaticResource SectionTitleStyle}" />
-                            <TextBlock Text="Phone: +1-800-555-TOUR" Style="{StaticResource ContentTextStyle}" />
+                            <TextBlock Text="Phone: +94 789 147" Style="{StaticResource ContentTextStyle}" />
                             <TextBlock Text="Telegram: t.me/tourguideapp" Style="{StaticResource ContentTextStyle}" />
                             <TextBlock Text="Facebook: facebook.com/tourguideapp" Style="{StaticResource ContentTextStyle}" />
                         </StackPanel>

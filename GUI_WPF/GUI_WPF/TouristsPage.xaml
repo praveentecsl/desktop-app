@@ -10,7 +10,7 @@
     <Page.Resources>
         <!-- Styles -->
         <Style x:Key="SectionTitle" TargetType="TextBlock">
-            <Setter Property="FontSize" Value="24" />
+            <Setter Property="FontSize" Value="35" />
             <Setter Property="FontWeight" Value="Bold" />
             <Setter Property="Foreground" Value="#2E8B57" />
             <Setter Property="Margin" Value="10,20,10,10" />
@@ -28,7 +28,7 @@
             <Setter Property="BorderThickness" Value="1" />
             <Setter Property="Padding" Value="10" />
             <Setter Property="Margin" Value="10" />
-            <Setter Property="Background" Value="White" />
+            <Setter Property="Background" Value="LightGoldenrodYellow" />
         </Style>
         <Style x:Key="ImageStyle" TargetType="Image">
             <Setter Property="Height" Value="150" />
@@ -40,12 +40,12 @@
     <Grid>
         <!-- Background -->
         <Grid.Background>
-            <ImageBrush ImageSource="NewFolder/img-7.jpg" Stretch="UniformToFill" />
+            <ImageBrush ImageSource="NewFolder/img-5.jpg" Stretch="UniformToFill" />
         </Grid.Background>
 
         <!-- Content -->
         <ScrollViewer VerticalScrollBarVisibility="Auto">
-            <StackPanel Margin="20" Background="White" >
+            <StackPanel Margin="20" Background="LightCyan" >
                 <!-- Title -->
                 <TextBlock Text="Explore Tourist Facilities" 
                            Style="{StaticResource SectionTitle}" HorizontalAlignment="Center" />

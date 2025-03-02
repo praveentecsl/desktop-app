@@ -11,7 +11,7 @@
         <!-- Styles -->
         <Style x:Key="CardStyle" TargetType="Border">
             <Setter Property="CornerRadius" Value="15" />
-            <Setter Property="Background" Value="White" />
+            <Setter Property="Background" Value="LightBlue" />
             <Setter Property="Margin" Value="10" />
             <Setter Property="Padding" Value="20" />
             <Setter Property="Effect">
@@ -21,7 +21,7 @@
             </Setter>
         </Style>
         <Style x:Key="TitleStyle" TargetType="TextBlock">
-            <Setter Property="FontSize" Value="36" />
+            <Setter Property="FontSize" Value="45" />
             <Setter Property="FontWeight" Value="Bold" />
             <Setter Property="Foreground" Value="#4CAF50" />
             <Setter Property="TextAlignment" Value="Center" />
@@ -36,7 +36,7 @@
         </Style>
         <Style x:Key="ContentTextStyle" TargetType="TextBlock">
             <Setter Property="FontSize" Value="16" />
-            <Setter Property="Foreground" Value="#333333" />
+            <Setter Property="Foreground" Value="Black" />
             <Setter Property="TextWrapping" Value="Wrap" />
             <Setter Property="Margin" Value="0,0,0,10" />
         </Style>
@@ -64,7 +64,7 @@
                 <!-- Discover Islands Section -->
                 <Border Style="{StaticResource CardStyle}">
                     <StackPanel>
-                        <Image Source="NewFolder/img-1.jpg" Height="200" Stretch="UniformToFill" />
+                        <Image Source="NewFolder2/hh.jpeg" Height="200" Stretch="UniformToFill" />
                         <TextBlock Text="Discover Stunning Islands" Style="{StaticResource SubtitleStyle}" />
                         <TextBlock Text="Explore serene beaches, lush greenery, and vibrant culture. Unwind in a tropical paradise!" 
                                    Style="{StaticResource ContentTextStyle}" />
@@ -74,7 +74,7 @@
                 <!-- Luxury Hotels Section -->
                 <Border Style="{StaticResource CardStyle}">
                     <StackPanel>
-                        <Image Source="NewFolder/img-1.jpg" Height="200" Stretch="UniformToFill" />
+                        <Image Source="NewFolder2/uo.png" Height="200" Stretch="UniformToFill" />
                         <TextBlock Text="Luxury Hotel Stays" Style="{StaticResource SubtitleStyle}" />
                         <TextBlock Text="Enjoy world-class hospitality with stunning views and top-notch facilities." 
                                    Style="{StaticResource ContentTextStyle}" />
@@ -84,7 +84,7 @@
                 <!-- Exciting Activities Section -->
                 <Border Style="{StaticResource CardStyle}">
                     <StackPanel>
-                        <Image Source="NewFolder/img-1.jpg" Height="200" Stretch="UniformToFill" />
+                        <Image Source="NewFolder2/dw.jpeg" Height="200" Stretch="UniformToFill" />
                         <TextBlock Text="Exciting Activities" Style="{StaticResource SubtitleStyle}" />
                         <TextBlock Text="Scuba diving, hiking, and more await you. Create memories that last a lifetime." 
                                    Style="{StaticResource ContentTextStyle}" />
@@ -94,7 +94,7 @@
                 <!-- Contact Section -->
                 <Border Style="{StaticResource CardStyle}">
                     <StackPanel>
-                        <Image Source="NewFolder/img-1.jpg" Height="200" Stretch="UniformToFill" />
+                        <Image Source="NewFolder2/io.jpeg" Height="200" Stretch="UniformToFill" />
                         <TextBlock Text="Connect with Us" Style="{StaticResource SubtitleStyle}" />
                         <TextBlock Text="Phone: +1-800-555-ISLE" Style="{StaticResource ContentTextStyle}" />
                         <TextBlock Text="Email: support@islandexplorer.com" Style="{StaticResource ContentTextStyle}" />
