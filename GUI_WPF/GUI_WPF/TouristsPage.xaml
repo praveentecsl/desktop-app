@@ -56,8 +56,8 @@
                     <!-- Facility 1 -->
                     <Border Style="{StaticResource FacilityCard}">
                         <StackPanel>
-                            <Image Source="NewFolder/img-7.jpg" Style="{StaticResource ImageStyle}" />
-                            <TextBlock Text="Luxurious Rooms" Style="{StaticResource DescriptionText}" />
+                            <Image Source="NewFolder1/ooo.jpeg" Style="{StaticResource ImageStyle}" />
+                            <TextBlock Text=" Luxuriou Rooms" Style="{StaticResource DescriptionText}" />
                             <TextBlock Text="Spacious, air-conditioned rooms with stunning sea views and modern amenities." 
                                        Style="{StaticResource DescriptionText}" />
                         </StackPanel>
@@ -65,7 +65,7 @@
                     <!-- Facility 2 -->
                     <Border Style="{StaticResource FacilityCard}">
                         <StackPanel>
-                            <Image Source="NewFolder/img-7.jpg" Style="{StaticResource ImageStyle}" />
+                            <Image Source="NewFolder1/wqw.jpeg" Style="{StaticResource ImageStyle}" />
                             <TextBlock Text="Spa and Wellness" Style="{StaticResource DescriptionText}" />
                             <TextBlock Text="Relax with world-class spa treatments and rejuvenating wellness therapies." 
                                        Style="{StaticResource DescriptionText}" />
@@ -74,9 +74,9 @@
                     <!-- Facility 3 -->
                     <Border Style="{StaticResource FacilityCard}">
                         <StackPanel>
-                            <Image Source="NewFolder/img-7.jpg" Style="{StaticResource ImageStyle}" />
+                            <Image Source="NewFolder1/R.jpeg" Style="{StaticResource ImageStyle}" />
                             <TextBlock Text="Infinity Pools" Style="{StaticResource DescriptionText}" />
-                            <TextBlock Text="Enjoy breathtaking infinity pools overlooking the ocean." 
+                            <TextBlock Text="Enjoy breathtaking infinity pools ." 
                                        Style="{StaticResource DescriptionText}" />
                         </StackPanel>
                     </Border>
@@ -88,7 +88,7 @@
                     <!-- Cuisine 1 -->
                     <Border Style="{StaticResource FacilityCard}">
                         <StackPanel>
-                            <Image Source="NewFolder/img-7.jpg" Style="{StaticResource ImageStyle}" />
+                            <Image Source="NewFolder1/mp.jpg" Style="{StaticResource ImageStyle}" />
                             <TextBlock Text="Fresh Seafood" Style="{StaticResource DescriptionText}" />
                             <TextBlock Text="Savor the freshest seafood dishes, straight from the ocean." 
                                        Style="{StaticResource DescriptionText}" />
@@ -97,7 +97,7 @@
                     <!-- Cuisine 2 -->
                     <Border Style="{StaticResource FacilityCard}">
                         <StackPanel>
-                            <Image Source="NewFolder/img-7.jpg" Style="{StaticResource ImageStyle}" />
+                            <Image Source="NewFolder1/re.jpg" Style="{StaticResource ImageStyle}" />
                             <TextBlock Text="Tropical Fruits" Style="{StaticResource DescriptionText}" />
                             <TextBlock Text="Delight in a variety of exotic tropical fruits." 
                                        Style="{StaticResource DescriptionText}" />
@@ -106,7 +106,7 @@
                     <!-- Cuisine 3 -->
                     <Border Style="{StaticResource FacilityCard}">
                         <StackPanel>
-                            <Image Source="NewFolder/img-7.jpg" Style="{StaticResource ImageStyle}" />
+                            <Image Source="NewFolder1/tt.jpeg" Style="{StaticResource ImageStyle}" />
                             <TextBlock Text="Fine Dining" Style="{StaticResource DescriptionText}" />
                             <TextBlock Text="Experience gourmet dining at beachfront restaurants." 
                                        Style="{StaticResource DescriptionText}" />
@@ -120,7 +120,7 @@
                     <!-- Activity 1 -->
                     <Border Style="{StaticResource FacilityCard}">
                         <StackPanel>
-                            <Image Source="NewFolder/img-7.jpg" Style="{StaticResource ImageStyle}" />
+                            <Image Source="NewFolder1/dfg.jpeg" Style="{StaticResource ImageStyle}" />
                             <TextBlock Text="Water Sports" Style="{StaticResource DescriptionText}" />
                             <TextBlock Text="Snorkeling, scuba diving, and exciting water sports await you." 
                                        Style="{StaticResource DescriptionText}" />
@@ -129,7 +129,7 @@
                     <!-- Activity 2 -->
                     <Border Style="{StaticResource FacilityCard}">
                         <StackPanel>
-                            <Image Source="NewFolder/img-7.jpg" Style="{StaticResource ImageStyle}" />
+                            <Image Source="NewFolder/banner.jpg" Style="{StaticResource ImageStyle}" />
                             <TextBlock Text="Sunset Cruises" Style="{StaticResource DescriptionText}" />
                             <TextBlock Text="Enjoy stunning sunsets on luxurious cruises." 
                                        Style="{StaticResource DescriptionText}" />
@@ -138,7 +138,7 @@
                     <!-- Activity 3 -->
                     <Border Style="{StaticResource FacilityCard}">
                         <StackPanel>
-                            <Image Source="NewFolder/img-7.jpg" Style="{StaticResource ImageStyle}" />
+                            <Image Source="NewFolder1/kl.jpeg" Style="{StaticResource ImageStyle}" />
                             <TextBlock Text="Cultural Shows" Style="{StaticResource DescriptionText}" />
                             <TextBlock Text="Experience vibrant local culture through traditional performances." 
                                        Style="{StaticResource DescriptionText}" />

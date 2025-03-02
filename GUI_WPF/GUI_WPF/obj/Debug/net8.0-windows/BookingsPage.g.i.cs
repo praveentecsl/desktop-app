@@ -53,7 +53,7 @@ namespace GUI_WPF {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/GUI_WPF;V1.0.0.0;component/bookingspage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/GUI_WPF;component/bookingspage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\BookingsPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

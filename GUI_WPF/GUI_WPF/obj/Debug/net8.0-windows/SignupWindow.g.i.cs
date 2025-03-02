@@ -53,7 +53,7 @@ namespace GUI_WPF {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/GUI_WPF;V1.0.0.0;component/signupwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/GUI_WPF;component/signupwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\SignupWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

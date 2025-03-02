@@ -9,6 +9,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="NewFolder1\dfg.jpeg" />
+    <None Remove="NewFolder1\kl.jpeg" />
+    <None Remove="NewFolder1\mp.jpg" />
+    <None Remove="NewFolder1\ooo.jpeg" />
+    <None Remove="NewFolder1\R.jpeg" />
+    <None Remove="NewFolder1\re.jpg" />
+    <None Remove="NewFolder1\tt.jpeg" />
+    <None Remove="NewFolder1\wqw.jpeg" />
+    <None Remove="NewFolder\banner.jpg" />
     <None Remove="NewFolder\eeer.png" />
     <None Remove="NewFolder\img-1.jpg" />
     <None Remove="NewFolder\img-3.jpg" />
@@ -27,6 +36,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="NewFolder1\dfg.jpeg" />
+    <Resource Include="NewFolder1\kl.jpeg" />
+    <Resource Include="NewFolder1\mp.jpg" />
+    <Resource Include="NewFolder1\ooo.jpeg" />
+    <Resource Include="NewFolder1\R.jpeg" />
+    <Resource Include="NewFolder1\re.jpg" />
+    <Resource Include="NewFolder1\tt.jpeg" />
+    <Resource Include="NewFolder1\wqw.jpeg" />
+    <Resource Include="NewFolder\banner.jpg" />
     <Resource Include="NewFolder\eeer.png" />
     <Resource Include="NewFolder\img-1.jpg" />
     <Resource Include="NewFolder\img-3.jpg" />

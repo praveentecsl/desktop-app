@@ -13,12 +13,12 @@
         </Grid.RowDefinitions>
         
             <!-- Navigation Bar -->
-            <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" Background="Aqua" Grid.Row="0">
+        <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" Background="Aqua" Grid.Row="0">
             <Image Source="pack://application:,,,/NewFolder/eeer.png" Width="50" Height="40" Margin="5,5,100,5" MouseLeftButtonDown="NavigateToWelcomePage"/>
               <Button Content="Home" Click="NavigateToHomePage" Margin="5" FontSize="20"/>
-                <Button Content="Tourists" Click="NavigateToTouristsPage" Margin="5" FontSize="20"/>
-                <Button Content="Bookings" Click="NavigateToBookingsPage" Margin="5" FontSize="20"/>
-            <Button Content="Reports" Click="NavigateToReportsPage" Margin="5" FontSize="20"/>
+              <Button Content="Tourists" Click="NavigateToTouristsPage" Margin="5" FontSize="20"/>
+              <Button Content="Bookings" Click="NavigateToBookingsPage" Margin="5" FontSize="20"/>
+              <Button Content="Reports" Click="NavigateToReportsPage" Margin="5" FontSize="20"/>
         </StackPanel>
 
             <!-- Content Frame -->
