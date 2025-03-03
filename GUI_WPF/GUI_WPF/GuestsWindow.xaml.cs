@@ -32,7 +32,7 @@ namespace GUI_WPF
             GuestsDataGrid.ItemsSource = _context.Guests.ToList();
         }
 
-        private void DeleteGuest_Click(object sender, RoutedEventArgs e)
+        private void DeleteButton_Click(object sender, RoutedEventArgs e)
         {
             if (GuestsDataGrid.SelectedItem is Guest selectedGuest)
             {
@@ -40,15 +40,26 @@ namespace GUI_WPF
                 _context.SaveChanges();
                 LoadGuests(); // Refresh DataGrid
             }
+            else
+            {
+                MessageBox.Show("Please select a guest to delete.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
         }
 
-        private void EditGuest_Click(object sender, RoutedEventArgs e)
+        private void EditButton_Click(object sender, RoutedEventArgs e)
         {
             if (GuestsDataGrid.SelectedItem is Guest selectedGuest)
             {
-                selectedGuest.FullName = "Updated Name"; // Example update
-                _context.SaveChanges();
-                LoadGuests(); // Refresh DataGrid
+                EditWindow editWindow = new EditWindow(selectedGuest);
+                if (editWindow.ShowDialog() == true) // If user saves changes
+                {
+                    _context.SaveChanges(); // Save changes to the database
+                    LoadGuests(); // Refresh DataGrid
+                }
+            }
+            else
+            {
+                MessageBox.Show("Please select a guest to edit.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
     }

@@ -139,3 +139,5 @@ C:\Users\chand\GUI-project-wpf\GUI_WPF\GUI_WPF\obj\Debug\net8.0-windows\ref\GUI_
 C:\Users\chand\GUI-project-wpf\GUI_WPF\GUI_WPF\obj\Debug\net8.0-windows\GUI_WPF.sourcelink.json
 C:\Users\chand\GUI-project-wpf\GUI_WPF\GUI_WPF\obj\Debug\net8.0-windows\GuestsWindow.g.cs
 C:\Users\chand\GUI-project-wpf\GUI_WPF\GUI_WPF\obj\Debug\net8.0-windows\GuestsWindow.baml
+C:\Users\chand\GUI-project-wpf\GUI_WPF\GUI_WPF\obj\Debug\net8.0-windows\EditWindow.g.cs
+C:\Users\chand\GUI-project-wpf\GUI_WPF\GUI_WPF\obj\Debug\net8.0-windows\EditWindow.baml
