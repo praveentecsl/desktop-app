@@ -16,10 +16,18 @@ namespace GUI_WPF
     /// </summary>
     public partial class MainWindow : Window
     {
+        
         public MainWindow()
         {
             InitializeComponent();
             MainFrame.Navigate(new WelcomePage());
+
+            using (var context = new AppDbContext())
+            {
+                context.Database.EnsureDeleted(); // WARNING: This deletes existing data!
+                context.Database.EnsureCreated();
+            }
+
 
 
         }

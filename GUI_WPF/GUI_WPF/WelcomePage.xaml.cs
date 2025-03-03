@@ -30,6 +30,13 @@ namespace GUI_WPF
             SignupWindow signupWindow = new SignupWindow();
             signupWindow.ShowDialog();
         }
+
+        private void LoginButton_Click(object sender, RoutedEventArgs e)
+        {
+            GuestsWindow guestsWindow = new GuestsWindow();
+            guestsWindow.Show();
+        }
+
     }
 
 }

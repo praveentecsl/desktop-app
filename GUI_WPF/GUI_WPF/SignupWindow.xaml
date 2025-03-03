@@ -64,22 +64,22 @@
             <StackPanel Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Top" Width="250">
                 <!-- Name -->
                 <Label Content="Full Name" Style="{StaticResource LabelStyle}" />
-                <TextBox  Style="{StaticResource TextBoxStyle}" />
+                <TextBox  Style="{StaticResource TextBoxStyle}" x:Name="FullNameTextBox"/>
 
                 <!-- Email -->
                 <Label Content="Email Address" Style="{StaticResource LabelStyle}" />
-                <TextBox   Style="{StaticResource TextBoxStyle}" />
+                <TextBox   Style="{StaticResource TextBoxStyle}" x:Name="EmailTextBox"/>
 
                 <!-- Password -->
                 <Label Content="Password" Style="{StaticResource LabelStyle}" />
-                <PasswordBox Style="{StaticResource PasswordBoxStyle}" />
+                <PasswordBox Style="{StaticResource PasswordBoxStyle}" x:Name="PasswordBox"/>
 
                 <!-- Confirm Password -->
                 <Label Content="Confirm Password" Style="{StaticResource LabelStyle}" />
                 <PasswordBox Style="{StaticResource PasswordBoxStyle}" />
 
                 <!-- Create Account Button -->
-                <Button Content="Create Account" Style="{StaticResource ButtonStyle}" Width="150" />
+                <Button Content="Create Account" Style="{StaticResource ButtonStyle}" Width="150"  Click="CreateAccountButton_Click"/>
             </StackPanel>
         </Grid>
     </ScrollViewer>

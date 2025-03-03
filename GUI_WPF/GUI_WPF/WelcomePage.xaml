@@ -60,7 +60,8 @@
                 Padding="5"
                 Foreground="Red"
                 Background="Black"
-                 />
+                Click="LoginButton_Click"/>
+            
             <Button Content="Signup"
                 FontSize="20"
                 Width="120"

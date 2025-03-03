@@ -19,9 +19,31 @@ namespace GUI_WPF
     /// </summary>
     public partial class SignupWindow : Window
     {
+        
         public SignupWindow()
         {
             InitializeComponent();
+            
         }
+
+
+        private void CreateAccountButton_Click(object sender, RoutedEventArgs e)
+        {
+            using (var context = new AppDbContext())
+            {
+                var guest = new Guest
+                {
+                    FullName = FullNameTextBox.Text,
+                    Email = EmailTextBox.Text,
+                    Password = PasswordBox.Password // Ideally, hash this password
+                };
+
+                context.Guests.Add(guest);
+                context.SaveChanges();
+                MessageBox.Show("Account Created Successfully!");
+                this.Close(); // Close signup window
+            }
+        }
+
     }
 }
